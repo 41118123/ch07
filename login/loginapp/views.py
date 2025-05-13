@@ -31,7 +31,7 @@ def logout(request):
 
 def adduser(request):	
 	try:
-		user=User.objects.get(username="test")
+		user=User.objects.get(username="huagnjinchi")
 	except:
 		user=None
 	if user!=None:
